@@ -11,22 +11,23 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: "hats",
-          imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+          title: "shoes",
+          imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
           id: 1,
-          linkUrl: "shop/hats"
+          linkUrl: "shop/shoes"
         },
         {
-          title: "jackets",
+          title: "clothing",
           imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
           id: 2,
-          linkUrl: "shop/jackets"
+          linkUrl: "shop/clothing"
         },
         {
-          title: "sneakers",
-          imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+          title: "accessories",
+          imageUrl:
+            "https://images.unsplash.com/photo-1511556820780-d912e42b4980?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
           id: 3,
-          linkUrl: "shop/sneakers"
+          linkUrl: "shop/accessories"
         },
         {
           title: "womens",
@@ -37,7 +38,8 @@ class Directory extends React.Component {
         },
         {
           title: "mens",
-          imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+          imageUrl:
+            "https://images.pexels.com/photos/733500/pexels-photo-733500.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
           size: "large",
           id: 5,
           linkUrl: "shop/mens"
